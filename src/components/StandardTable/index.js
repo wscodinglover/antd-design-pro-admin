@@ -1,14 +1,9 @@
 import React, { PureComponent, Fragment } from 'react';
 import { Table, Alert } from 'antd';
 import styles from './index.less';
-
-
-
-
 import { DragDropContext, DragSource, DropTarget } from 'react-dnd';
 import HTML5Backend from 'react-dnd-html5-backend';
 import update from 'immutability-helper';
-import { concat } from '_rxjs@5.5.10@rxjs/operators';
 
 function dragDirection(
   dragIndex,

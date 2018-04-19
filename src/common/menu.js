@@ -7,7 +7,8 @@ const menuData = [
   // },
   {
     name:'dragtable',
-    path:'drag'
+    path:'drag',
+    authority: ['user1','user'],
   },
   {
     name: 'dashboard',
